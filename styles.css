@@ -234,7 +234,7 @@ button:hover {
   text-align: center;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .logo img {
     width: 150px;
     margin-left: 35px;
@@ -319,7 +319,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 899px) {
+@media only screen and (max-width: 899px) {
   .logo img {
     width: 130px;
     margin-left: 35px;
@@ -349,7 +349,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 820px) {
+@media only screen and (max-width: 820px) {
   .logo img {
     width: 200px;
     margin-left: 35px;
@@ -384,7 +384,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .logo img {
     width: 100px;
     margin-left: 35px;
@@ -471,7 +471,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .logo img {
     width: 100px;
     margin-left: 2px;
