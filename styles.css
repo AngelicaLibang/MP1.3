@@ -1,0 +1,488 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Montserrat:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed;
+}
+nav {
+  background: #386aa0;
+  height: 80px;
+  width: 100%;
+  height: 20vh;
+}
+
+.logo img {
+  width: 180px;
+  margin-left: 35px;
+  margin-top: -2vh;
+  padding: -20px 0 -20px 0;
+  position: absolute;
+}
+
+nav ul {
+  float: right;
+  margin-right: 50px;
+  margin-top: 12vh;
+  font-size: 25px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 10px;
+  font-size: 25px;
+}
+
+li.active,
+li:hover {
+  background: #386aa0;
+  transition: 0.5s;
+}
+
+nav .btn.btn-primary {
+  background-color: #ffffff;
+  background-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  position: relative;
+  color: #0a588e;
+  font-size: 20px;
+  padding-right: 2vh;
+  margin-top: -0vh;
+}
+.btn.btn-primary:hover {
+  background-color: #7cafe7;
+}
+.nav-item dropdown {
+  color: rgb(0, 0, 0);
+  background-color: #0a588e;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.nav-link dropdown-toggle {
+  display: inline-block;
+  color: #62737f;
+}
+#no_of_pax {
+  font-size: 10px;
+  justify-content: left;
+}
+
+/* Landing Page */
+
+.sec1 {
+  background-color: #f7f7f7;
+  padding-bottom: -50px;
+}
+
+.availability-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* About Section */
+.sec2 {
+  width: 100%;
+  background-color: #386aa0;
+  padding: 2vh;
+  color: white;
+  font-size: 30px;
+}
+.sec2 h1 {
+  font-size: 70px;
+}
+.sec2 b {
+  color: yellow;
+}
+
+#sec2.page {
+  width: 70%;
+  right: 10%;
+  text-align: center;
+}
+
+.sec2 img {
+  width: 100%;
+  height: auto;
+}
+#link {
+  color: white;
+  font-size: 20px;
+}
+
+/* Section for Amenities */
+.sec3 {
+  padding: 2vh;
+}
+#amenities-resort {
+  width: 100%;
+}
+
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+/* Section for ratings */
+.sec4 {
+  background-color: #386aa0;
+  color: white;
+  padding: 2vh;
+}
+.sec4 b {
+  color: yellow;
+}
+#text_reviews {
+  font-size: 70px;
+}
+
+.container {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.container .content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content-section .card {
+  margin: 5px 5px;
+  width: 100%;
+  padding: 20px 10px;
+}
+.container .content-section .card img {
+  width: 30%;
+  margin-left: 10px;
+}
+.container .content-section .card p {
+  margin-left: 10px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+}
+.container .content-section .card h2 {
+  margin-left: 10px;
+  font-size: 35px;
+  color: black;
+}
+
+/* Footer Style */
+.footer-content h3 {
+  padding-top: 2vh;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #386aa0;
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.footer-content p {
+  text-align: center;
+  margin-bottom: -2px;
+  font-size: 20px;
+  color: #386aa0;
+  background-color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#footer-btn {
+  background-color: #386aa0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo img {
+    width: 150px;
+    margin-left: 35px;
+    margin-top: -2vh;
+    padding: -20px 0 -20px 0;
+    position: absolute;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 40px;
+    margin-top: 12vh;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  nav .btn.btn-primary {
+    font-size: 15px;
+    padding-right: 2vh;
+    margin-top: -4vh;
+  }
+
+  .availability-form {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .container .content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .content-section .card {
+    margin: 5px 5px;
+    width: 100%;
+    padding: 20px 10px;
+  }
+  .container .content-section .card img {
+    width: 30%;
+    margin-left: 10px;
+  }
+
+  .container .content-section .card p {
+    margin-left: 10px;
+    padding: 0 10px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .container .content-section .card h2 {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .footer-content h3 {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 30px;
+  }
+  .footer-content p {
+    text-align: center;
+    margin-bottom: -2px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .logo img {
+    width: 130px;
+    margin-left: 35px;
+    margin-top: -2vh;
+    padding: -20px 0 -20px 0;
+    position: absolute;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 40px;
+    margin-top: 12vh;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  nav .btn.btn-primary {
+    font-size: 15px;
+    padding-right: 2vh;
+    margin-top: -4vh;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .logo img {
+    width: 200px;
+    margin-left: 35px;
+    margin-top: -1vh;
+    padding: -20px 0 -20px 0;
+    position: absolute;
+  }
+  header {
+    height: 15vh;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10vh;
+    font-size: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 10px;
+    font-size: 10px;
+  }
+
+  nav .btn.btn-primary {
+    font-size: 10px;
+    padding-right: 2vh;
+    margin-top: -0vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 100px;
+    margin-left: 35px;
+    margin-top: -2vh;
+    padding: -20px 0 -20px 0;
+    position: absolute;
+  }
+
+  .availability-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+  }
+
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-top: 9vh;
+  }
+
+  nav ul li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 3px;
+    font-size: 15px;
+  }
+  nav .btn.btn-primary {
+    font-size: 10px;
+    padding-right: 2vh;
+    margin-top: -1vh;
+  }
+
+  #text_reviews {
+    font-size: 50px;
+  }
+
+  .container {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .content-section {
+    display: inline-block;
+    align-items: center;
+  }
+  .container .content-section .card {
+    margin: 5px 5px;
+    width: 100%;
+    padding: 10px 10px;
+  }
+  .container .content-section .card img {
+    width: 20%;
+    margin-left: 10px;
+  }
+  .container .content-section .card p {
+    margin-left: 10px;
+    padding: 0 10px;
+    text-align: left;
+    font-size: 20px;
+  }
+  .container .content-section .card h2 {
+    margin-left: 20px;
+    font-size: 35px;
+  }
+
+  .footer-content h3 {
+    padding-top: 2vh;
+    text-align: center;
+    font-size: 30px;
+  }
+  .footer-content p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: -2px;
+  }
+
+  #footer-btn {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .logo img {
+    width: 70px;
+    margin-left: 2px;
+  }
+
+  nav ul li {
+    font-size: 5px;
+  }
+
+  nav .btn.btn-primary {
+    font-size: 10px;
+  }
+}
