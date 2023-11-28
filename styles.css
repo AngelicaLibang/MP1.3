@@ -485,4 +485,41 @@ button:hover {
   nav .btn.btn-primary {
     font-size: 10px;
   }
+
+  .container {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.container .content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content-section .card {
+  margin: 5px 5px;
+  width: 100%;
+  padding: 20px 10px;
+}
+.container .content-section .card img {
+  width: 30%;
+  margin-left: 10px;
+}
+.container .content-section .card p {
+  margin-left: 10px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+}
+.container .content-section .card h2 {
+  margin-left: 10px;
+  font-size: 35px;
+  color: black;
+}
+
 }
