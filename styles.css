@@ -471,10 +471,11 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 375px) {
   .logo img {
     width: 70px;
     margin-left: 2px;
+    margin-top: 4px;
   }
 
   nav ul li {
